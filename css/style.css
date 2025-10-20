@@ -535,8 +535,8 @@ body::before {
 .contact-form textarea {
   resize: vertical;
   overflow-y: auto;
-  max-height: 350px;
-  min-height: 200px;
+  max-height: 300px;
+  min-height: 180px;
   line-height: 1.5;
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 191, 255, 0.679) transparent;
