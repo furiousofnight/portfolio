@@ -516,7 +516,6 @@ body::before {
   margin-top: 0.6rem;
   color: var(--muted);
 }
-
 /* === Formulário de Contato === */
 .contact-form input,
 .contact-form textarea {
@@ -526,14 +525,51 @@ body::before {
   border: 1px solid rgb(0, 191, 255);
   border-radius: 8px;
   color: var(--text);
+  font-family: inherit;
+  font-size: 1rem;
 }
+
+/* Corrige o comportamento do textarea */
+.contact-form textarea {
+  resize: vertical;
+  overflow-y: auto;
+  max-height: 250px;
+  min-height: 150px;
+  line-height: 1.5;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 191, 255, 0.312) transparent
+}
+
+/* Personaliza a barra de rolagem (Chrome, Edge, Safari) */
+.contact-form textarea::-webkit-scrollbar {
+  width: 8px;
+}
+.contact-form textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 191, 255, 0.5);
+  border-radius: 6px;
+}
+.contact-form textarea::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 191, 255, 0.363);
+}
+
+/* Deixa o puxador (canto inferior direito) mais perceptível */
+.contact-form textarea::-webkit-resizer {
+  background-color: rgba(0, 191, 255, 0.4);
+  border-radius: 4px;
+  width: 14px;
+  height: 14px;
+}
+
+/* Layout dos inputs lado a lado */
 .form-row {
   display: flex;
   gap: 1rem;
 }
+
 .form-row input {
   flex: 1;
 }
+
 
 /* === Botões === */
 .btn {
