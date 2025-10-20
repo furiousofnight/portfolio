@@ -432,7 +432,7 @@ body::before {
 /* Card base */
 .project-card {
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(0, 213, 250, 0.577);
   border-radius: var(--radius);
   overflow: hidden;
   transition: transform var(--transition), 
@@ -509,7 +509,7 @@ body::before {
   background: rgba(255, 255, 255, 0.03);
   padding: 1rem;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 191, 255, 0.756);
 }
 .price {
   display: block;
