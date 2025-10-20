@@ -411,7 +411,7 @@ body::before {
   border-radius: 12px;
   color: var(--text);
   font-size: 0.95rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgb(0, 238, 255);
   transition: all 0.3s ease;
 }
 
@@ -523,7 +523,7 @@ body::before {
   width: 100%;
   padding: 0.7rem;
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(0, 191, 255, 0.744);
   border-radius: 8px;
   color: var(--text);
 }
@@ -554,7 +554,7 @@ body::before {
   background: #10c4c3;
 }
 .btn.outline {
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgb(0, 204, 255);
   background: transparent;
   color: var(--text);
 }
